@@ -1,4 +1,70 @@
-$color-black: #000000;
-$color-white: #FFFF;
-$color-lorems: #808080;
-$color-label: #293a3db5;
+@media only screen and (max-width : $phoneLandscapeViewportWidth) {
+
+  header {
+    text-align: center;
+    background-image: url('../src/assets/seacost.jpg');
+    background-size: 375px 200px;
+    background-repeat: no-repeat;
+    height: 180px;
+    margin: 0;
+
+    h1 {
+      display: contents;
+    }
+  }
+
+  ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 40px;
+
+    li ul li {
+      display: none;
+    }
+    li ul li:hover {
+      display: table;
+      background: red;
+    }
+    ul ul li {
+      color: black;
+      display: block;
+      font-size: 30px;
+      padding: 15px 14px;
+      transition: 2s linear;
+      border: 1px solid black;
+      background: #e1e1e1;
+    }
+  }
+}
+
+.header__text {
+  float: right;
+  width: 80px;
+  text-align: left;
+  color: white;
+  margin-right: 50px;
+
+  h1 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 6px;
+    margin-bottom: 0;
+  }
+  button {
+    width: 35px;
+    height: 12px;
+    color: white;
+    font-size: 5px;
+    background-color: inherit;
+    display: inline-block;
+    border: 1px white solid;
+    border-radius: 20px;
+    justify-content: center;
+    float: right;
+    padding: 0;
+  }
+
+}

@@ -1,0 +1,63 @@
+@media only screen and (max-width : $phoneLandscapeViewportWidth) {
+
+  main {
+    box-sizing: border-box;
+
+  }
+
+
+  section {
+    padding: 15px;
+    p {
+      font-size: 6px;
+      color: $color-lorems;
+      width: 90%;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+  }
+  .section__second {
+    background: $color-bgScnSection;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+
+
+  h1 {
+    width: 100%;
+  }
+    p {
+      height: 40px;
+      margin:0;
+      width: 75%;
+    }
+    img {
+      margin: 0 5px 5px 0;
+    }
+    button {
+      height: 12px;
+      text-align: center;
+      background: transparent;
+      border: 1px $color-label solid;
+      border-radius: 20px;
+      color: $color-label;
+      font-weight: bold;
+      font-size: 5px;
+
+    }
+  }
+}
+div.section__second--button--ReadMore{
+  width: 100%;
+  text-align: center;
+}
+
+p.section__second--textSecond {
+  width:100%;
+}
+
+

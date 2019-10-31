@@ -1,0 +1,17 @@
+$color-black: #000000;
+$color-white: #FFFF;
+$color-lorems: #808080;
+$color-label: #293a3db5;
+$color-footer: #293a3db4;
+$color-bgScnSection: #dcdcdc;
+
+$phoneLandscapeViewportWidth: 30em;     // 480px
+$tabletViewportWidth: 48em;             // 768px
+$tabletLandscapeViewportWidth: 64em;    // 1024px
+$desktopViewportWidth: 78.75em;         // 1260px
+
+
+body {
+  margin: 0;
+  font-weight: bold;
+}
